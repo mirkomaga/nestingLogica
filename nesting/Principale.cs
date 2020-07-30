@@ -19,6 +19,12 @@ namespace nesting
             generoConfig();
 
             List<Componente> compOrdinato = Logica.ordinaComponente(compList);
+
+            Logica.inizializzoMatrice(10000, 2000);
+
+            Logica.inseriscoComponente(9999, 1999, null, null);
+
+            var a = "concluso";
         }
 
         public static void generoConfig()
